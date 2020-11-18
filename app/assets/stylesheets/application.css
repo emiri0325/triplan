@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+ /* ここにコメントを書く */
+#main {
+    float: left;
+    width: 80%;
+    background-color: #ddffdd;
+}
+#sideber {
+    float: right;
+    width: 20%;
+    background-color: #ffddff;
+}
+#footer {
+    background-color: #afeeee;
+}
