@@ -19,31 +19,7 @@
 
   <body>
     <%= render 'layouts/navbar' %>
-
-    <div class="container">
-      <%= render 'layouts/flash_messages' %>
-
-      <%= yield %>
-
-        <div id="main">
-            <!-- ここに本文が入ります -->
-            <p>article</p>
-        </div>
-
-        <div id="sideber">      
-          <aside>
-              <!-- ここにサイドバーが入ります -->
-              <p>side_ber</p>
-          </aside>
-        </div>
-
-        <div id="footer">    
-          <footer>
-            <!-- ここにフッターが入ります -->
-            <p>footer</p>
-          </footer> 
-        </div>  
-
-    </div>
+    <%= render 'layouts/flash_messages' %>
+    <%= yield %>
   </body>
 </html>

@@ -1,0 +1,27 @@
+<div class="row">
+  <aside class="col-sm-7">
+    <div class="card text-center">
+      <div class="card-title">
+        <img class="rounded img-fluid" src="<%= gravatar_url(@user, { size: 60 }) %>" alt="">
+        <h3><%= @user.name %></h3>
+      </div>
+      <div class="card-body">
+      <p>massage</p>
+      </div>
+    </div>
+    <ul class="nav nav-tabs nav-justified mb-3">
+      <li class="nav-item"><a href="#" class="nav-link">オリジナルプラン</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">お気に入りプラン</a></li>
+    </ul>
+  </aside>
+  <div class="col-sm-5">
+  <div class="card">
+    <div class="card-header">
+    みんなのプラン
+    </div>
+    <div class="card-body">
+    投稿一覧
+    </div> 
+  </div>
+  </div>
+</div>
